@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="unileao.edu.br.autappfinal.ActivityFazer">
+
+
+
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+
+            <ImageView
+                android:id="@+id/andarbicicleta"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/correr"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/andarbicicleta" />
+
+            <ImageView
+                android:id="@+id/assistirtv"
+                android:layout_width="90dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="90dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/ouvirmusica"
+                android:layout_toStartOf="@+id/ouvirmusica"
+                app:srcCompat="@drawable/assistirtv" />
+
+            <ImageView
+                android:id="@+id/correr"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignLeft="@+id/tocarinstrumento"
+                android:layout_alignStart="@+id/tocarinstrumento"
+                android:layout_below="@+id/tocarinstrumento"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/correr" />
+
+            <ImageView
+                android:id="@+id/dormir"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignLeft="@+id/assistirtv"
+                android:layout_alignStart="@+id/assistirtv"
+                android:layout_below="@+id/assistirtv"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/dormir" />
+
+            <ImageView
+                android:id="@+id/escovardentes"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/escovardentes" />
+
+            <ImageView
+                android:id="@+id/estudar"
+                android:layout_marginTop="5dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/estudar"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/escovardentes"
+                android:layout_toEndOf="@+id/escovardentes" />
+
+
+            <ImageView
+                android:id="@+id/iraoparquinho"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/dormir"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/iraoparquinho" />
+
+            <ImageView
+                android:id="@+id/massinhamodelar"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/iraoparquinho"
+                android:layout_toEndOf="@+id/iraoparquinho"
+                android:layout_toRightOf="@+id/iraoparquinho"
+                app:srcCompat="@drawable/massinhamodelar" />
+
+            <ImageView
+                android:id="@+id/nadar"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_below="@+id/dormir"
+                android:layout_marginTop="14dp"
+                android:layout_toLeftOf="@+id/ouvirmusica"
+                android:layout_toStartOf="@+id/ouvirmusica"
+                app:srcCompat="@drawable/nadar" />
+
+            <ImageView
+                android:id="@+id/ouvirmusica"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/nadar"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/ouvirmusica" />
+
+            <ImageView
+                android:id="@+id/pentearcabelo"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/pentearcabelo"
+                android:layout_alignTop="@+id/ouvirmusica"
+                android:layout_toRightOf="@+id/ouvirmusica"
+                android:layout_toEndOf="@+id/ouvirmusica" />
+
+            <ImageView
+                android:id="@+id/tocarinstrumento"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignLeft="@+id/nadar"
+                android:layout_alignStart="@+id/nadar"
+                android:layout_below="@+id/nadar"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/tocarinstrumento" />
+
+            <ImageView
+                android:id="@+id/tomarbanho"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/tocarinstrumento"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/tomarbanho" />
+
+
+            <ImageView
+                android:id="@+id/usarcomputador"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/andarbicicleta"
+                android:layout_toEndOf="@+id/andarbicicleta"
+                android:layout_toRightOf="@+id/andarbicicleta"
+                app:srcCompat="@drawable/usarcomputador" />
+
+            <ImageView
+                android:id="@+id/utilizarbanheiro"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/tomarbanho"
+                android:layout_toEndOf="@+id/tomarbanho"
+                android:layout_toRightOf="@+id/tomarbanho"
+                app:srcCompat="@drawable/utilizarbanheiro" />
+
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <ImageView
+        android:id="@+id/animacaoFazer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="invisible" />
+
+</FrameLayout>

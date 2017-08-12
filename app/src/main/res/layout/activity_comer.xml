@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="unileao.edu.br.autappfinal.ActivityComer">
+
+
+
+
+
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <ImageView
+            android:id="@+id/salada"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignTop="@+id/bolacha"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/salada" />
+
+        <ImageView
+            android:id="@+id/jantar"
+            android:layout_width="90dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="90dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/laranja"
+            android:layout_toStartOf="@+id/laranja"
+            app:srcCompat="@drawable/jantar" />
+
+        <ImageView
+            android:id="@+id/bolacha"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/pizza"
+            android:layout_alignStart="@+id/pizza"
+            android:layout_below="@+id/pizza"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/bolacha" />
+
+        <ImageView
+            android:id="@+id/banana"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/jantar"
+            android:layout_alignStart="@+id/jantar"
+            android:layout_below="@+id/jantar"
+            android:layout_marginTop="14dp"
+            app:srcCompat="@drawable/banana" />
+
+        <ImageView
+            android:id="@+id/almoco"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="5dp"
+            android:layout_above="@+id/banana"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/almoco" />
+
+        <ImageView
+            android:id="@+id/cafedamanha"
+            android:layout_width="90dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/cafedamanha"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/almoco"
+            android:layout_toEndOf="@+id/almoco" />
+
+
+        <ImageView
+            android:id="@+id/bolo"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignTop="@+id/banana"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/bolo" />
+
+        <ImageView
+            android:id="@+id/chocolate"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignTop="@+id/bolo"
+            android:layout_toEndOf="@+id/bolo"
+            android:layout_toRightOf="@+id/bolo"
+            app:srcCompat="@drawable/chocolate" />
+
+        <ImageView
+            android:id="@+id/maca"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/banana"
+            android:layout_marginTop="14dp"
+            android:layout_toLeftOf="@+id/laranja"
+            android:layout_toStartOf="@+id/laranja"
+            app:srcCompat="@drawable/maca" />
+
+        <ImageView
+            android:id="@+id/laranja"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignTop="@+id/maca"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/laranja" />
+
+        <ImageView
+            android:id="@+id/uva"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/uva"
+            android:layout_alignTop="@+id/laranja"
+            android:layout_toRightOf="@+id/laranja"
+            android:layout_toEndOf="@+id/laranja" />
+
+        <ImageView
+            android:id="@+id/pizza"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/maca"
+            android:layout_alignStart="@+id/maca"
+            android:layout_below="@+id/maca"
+            android:layout_marginTop="14dp"
+            app:srcCompat="@drawable/pizza" />
+
+        <ImageView
+            android:id="@+id/pudim"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignTop="@+id/pizza"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/pudim" />
+
+
+        <ImageView
+            android:id="@+id/pao"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignTop="@+id/salada"
+            android:layout_toEndOf="@+id/salada"
+            android:layout_toRightOf="@+id/salada"
+            app:srcCompat="@drawable/pao" />
+
+        <ImageView
+            android:id="@+id/sanduiche"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignTop="@+id/pudim"
+            android:layout_toEndOf="@+id/pudim"
+            android:layout_toRightOf="@+id/pudim"
+            app:srcCompat="@drawable/sanduiche" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
+
+    <ImageView
+        android:id="@+id/animacaoComer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="invisible" />
+
+
+</FrameLayout>

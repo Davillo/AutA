@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="unileao.edu.br.autappfinal.ActivityBrincar">
+
+
+
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+
+            <ImageView
+                android:id="@+id/baralho"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/boliche"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/baralho" />
+
+            <ImageView
+                android:id="@+id/bola"
+                android:layout_width="90dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="90dp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/lego"
+                android:layout_toStartOf="@+id/lego"
+                app:srcCompat="@drawable/bola" />
+
+            <ImageView
+                android:id="@+id/boliche"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignLeft="@+id/quebracabeca"
+                android:layout_alignStart="@+id/quebracabeca"
+                android:layout_below="@+id/quebracabeca"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/boliche" />
+
+            <ImageView
+                android:id="@+id/boneca"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignLeft="@+id/bola"
+                android:layout_alignStart="@+id/bola"
+                android:layout_below="@+id/bola"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/boneca" />
+
+            <ImageView
+                android:id="@+id/carrinho"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/carrinho" />
+
+            <ImageView
+                android:id="@+id/casinha"
+                android:layout_marginTop="5dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/casinha"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/carrinho"
+                android:layout_toEndOf="@+id/carrinho" />
+
+
+            <ImageView
+                android:id="@+id/desenhar"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/boneca"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/desenhar" />
+
+            <ImageView
+                android:id="@+id/domino"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/desenhar"
+                android:layout_toEndOf="@+id/desenhar"
+                android:layout_toRightOf="@+id/desenhar"
+                app:srcCompat="@drawable/domino" />
+
+            <ImageView
+                android:id="@+id/ioio"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_below="@+id/boneca"
+                android:layout_marginTop="14dp"
+                android:layout_toLeftOf="@+id/lego"
+                android:layout_toStartOf="@+id/lego"
+                app:srcCompat="@drawable/ioio" />
+
+            <ImageView
+                android:id="@+id/lego"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/lego"
+                android:layout_alignTop="@+id/ioio"
+                android:layout_alignLeft="@+id/desenhar"
+                android:layout_alignStart="@+id/desenhar" />
+
+            <ImageView
+                android:id="@+id/pipa"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                app:srcCompat="@drawable/pipa"
+                android:layout_alignTop="@+id/lego"
+                android:layout_toRightOf="@+id/lego"
+                android:layout_toEndOf="@+id/lego" />
+
+            <ImageView
+                android:id="@+id/quebracabeca"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignLeft="@+id/ioio"
+                android:layout_alignStart="@+id/ioio"
+                android:layout_below="@+id/ioio"
+                android:layout_marginTop="14dp"
+                app:srcCompat="@drawable/quebracabeca" />
+
+            <ImageView
+                android:id="@+id/urso"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/quebracabeca"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/urso" />
+
+
+            <ImageView
+                android:id="@+id/videogame"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/baralho"
+                android:layout_toEndOf="@+id/baralho"
+                android:layout_toRightOf="@+id/baralho"
+                app:srcCompat="@drawable/videogame" />
+
+            <ImageView
+                android:id="@+id/xadrez"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignTop="@+id/urso"
+                android:layout_toEndOf="@+id/urso"
+                android:layout_toRightOf="@+id/urso"
+                app:srcCompat="@drawable/xadrez" />
+
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+        <ImageView
+            android:id="@+id/animacaoBrincar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:visibility="invisible" />
+
+</FrameLayout>

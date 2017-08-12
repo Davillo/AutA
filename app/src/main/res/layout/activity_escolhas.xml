@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light"
+    tools:context="unileao.edu.br.autappfinal.EscolhasActivity">
+
+
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/barraazul"
+                android:layout_marginTop="20dp"
+                />
+
+            <LinearLayout
+                android:id="@+id/layoutMenuFazer"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="abrirCategoriaFazer"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="90dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1.49"
+                    app:srcCompat="@drawable/fazer" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dp"
+                    android:layout_weight="1.47"
+                    android:text="FAZER"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:textColor="#00afef"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/barraazul" />
+
+            <LinearLayout
+                android:id="@+id/layoutMenuBrincar"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="abrirCategoriaBrincar"
+
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgBrincar"
+                    android:layout_width="90dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1.43"
+                    app:srcCompat="@drawable/brincar" />
+
+                <TextView
+                    android:id="@+id/txtBrincar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:fontFamily="casual"
+                    android:text="BRINCAR"
+                    android:textAlignment="center"
+                    android:textColor="#00afef"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/barraazul" />
+
+            <LinearLayout
+                android:id="@+id/layoutMenuComer"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="abrirCategoriaComer"
+
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgComer"
+                    android:layout_width="90dp"
+                    android:layout_height="89dp"
+                    android:layout_weight="1.47"
+                    app:srcCompat="@drawable/comer" />
+
+                <TextView
+                    android:id="@+id/txtComer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1.24"
+                    android:text="COMER"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:textColor="#00afef"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/barraazul" />
+
+            <LinearLayout
+                android:id="@+id/layoutMenuBeber"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="abrirCategoriaBeber"
+
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgBeber"
+                    android:layout_width="90dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.62"
+                    app:srcCompat="@drawable/beber" />
+
+                <TextView
+                    android:id="@+id/txtBeber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1.47"
+                    android:text="BEBER"
+
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:textColor="#00afef"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/barra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/barraazul" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>
