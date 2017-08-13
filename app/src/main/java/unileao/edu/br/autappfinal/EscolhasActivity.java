@@ -20,7 +20,7 @@ public class EscolhasActivity extends AppCompatActivity {
     }
 
     private void ativarBarra(){
-        getSupportActionBar().setTitle("AutAPP");     //Titulo para ser exibido na  Action Bar
+        getSupportActionBar().setTitle("AutA");     //Titulo para ser exibido na  Action Bar
     }
 
     public void abrirCategoriaBeber(View view) {
