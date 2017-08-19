@@ -9,17 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EscolhasActivity" android:screenOrientation="portrait">
+        <activity
+            android:name=".EscolhasActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".ActivityComer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityBeber"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityFazer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityBrincar"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SplashAuta" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".ActivityComer" android:screenOrientation="portrait"/>
-        <activity android:name=".ActivityBeber" android:screenOrientation="portrait" />
-        <activity android:name=".ActivityFazer" android:screenOrientation="portrait" />
-        <activity android:name=".ActivityBrincar" android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
